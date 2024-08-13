@@ -69,6 +69,10 @@ TEMPLATES = [
     },
 ]
 
+AUTH_USER_MODEL = "shoppingSite.User"
+# python manage.py makemigrations
+# python manage.py migrate
+
 WSGI_APPLICATION = 'my_first_project.wsgi.application'
 
 
