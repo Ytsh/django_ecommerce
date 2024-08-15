@@ -29,6 +29,7 @@ def registration(request):
         email = request.POST['email']
         password = request.POST['password']
 
+
         user = User.objects.create_user(
             username=username,
             email = email,

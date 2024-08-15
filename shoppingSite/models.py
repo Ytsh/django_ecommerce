@@ -4,3 +4,9 @@ from django.contrib.auth.models import AbstractUser
 
 class User(AbstractUser):
     citizenNumber = models.CharField(max_length=50, unique=True)
+
+# Product
+# category
+# profile
+# shopping cart
+# comment
